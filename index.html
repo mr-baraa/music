@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="images/grad.webp" />
+    <title>Baraa-music 🎵</title>
+  </head>
+  <body>
+    <div class="video-bg">
+      <video width="320" height="240" autoplay loop muted>
+        <source
+          src="https://assets.codepen.io/3364143/7btrrd.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <div class="glass">
+      <div class="container22" id="cont">
+        <img
+          id="cross-n"
+          onclick="cross()"
+          src="https://img.icons8.com/material-outlined/24/edf0f1/multiply-2.png"
+        />
+        <h3 class="m-b-50 heading-line flux">
+          Notifications <i class="fa fa-bell text-muted"></i>
+        </h3>
+        <div class="notification-ui_dd-content">
+          <div class="notification-list notification-list--unread">
+            <div class="notification-list_content">
+              <div class="notification-list_img">
+                <img src="./images/grad.webp" alt="user" />
+              </div>
+              <div class="notification-list_detail">
+                <p><b>Aryan</b> reacted to your post</p>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Unde, dolorem.
+                </p>
+                <p class="text-muted"><small>10 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="notification-list notification-list--unread">
+            <div class="notification-list_content">
+              <div class="notification-list_img">
+                <img src="./images/grad.webp" alt="user" />
+              </div>
+              <div class="notification-list_detail">
+                <p><b>Raj Kumar</b> liked your post</p>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Unde, dolorem.
+                </p>
+                <p class="text-muted"><small>10 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="notification-list notification-list--read">
+            <div class="notification-list_content">
+              <div class="notification-list_img">
+                <img src="./images/grad.webp" alt="user" />
+              </div>
+              <div class="notification-list_detail">
+                <p><b>Rakesh</b> reacted to your post</p>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Unde, dolorem.
+                </p>
+                <p class="text-muted"><small>10 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile" id="profile">
+        <img
+          src="https://img.icons8.com/material/24/f5f5f5/chevron-right--v1.png"
+          id="arrowBack"
+          onclick="arrowBack()"
+        />
+        <div class="imgofprofilepage">
+          <img src="images/baraa.jpg" alt="" srcset="" />
+          <h2 class="nameofprofile">Baraa Alsher</h2>
+          <p class="form-intro-text">
+            Freelance web developer , specific in modern technology
+          </p>
+
+          <a
+            href="https://www.upwork.com/ab/messages/rooms?companyReference=1539704982281142273&sidebar=true"
+          >
+            <button class="upwork">keep in touch ></button>
+          </a>
+        </div>
+      </div>
+      <div class="header">
+        <div class="menu-circle"></div>
+        <div class="header-menu">
+          <a class="menu-link is-active" href="index.html">Home</a>
+          <a class="menu-link notify" href="pages/trend.html">Trending</a>
+          <a class="menu-link" href="pages/news.html">News</a>
+          <a class="menu-link notify" href="pages/favorite.html">Favorite</a>
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="searchinput"
+            placeholder="Search"
+            onclick="inbut()"
+          />
+        </div>
+        <div class="header-profile">
+          <div class="notification" onclick="nof()" id="nof">
+            <span class="notification-number">3</span>
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-bell"
+            >
+              <path
+                d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0"
+              />
+            </svg>
+          </div>
+          <svg viewBox="0 0 512 512" fill="currentColor">
+            <path
+              d="M448.773 235.551A135.893 135.893 0 00451 211c0-74.443-60.557-135-135-135-47.52 0-91.567 25.313-115.766 65.537-32.666-10.59-66.182-6.049-93.794 12.979-27.612 19.013-44.092 49.116-45.425 82.031C24.716 253.788 0 290.497 0 331c0 7.031 1.703 13.887 3.006 20.537l.015.015C12.719 400.492 56.034 436 106 436h300c57.891 0 106-47.109 106-105 0-40.942-25.053-77.798-63.227-95.449z"
+            />
+          </svg>
+          <img
+            class="profile-img"
+            loading="lazy"
+            src="https://www.upwork.com/profile-portraits/c1O_t02t-Cm9p0HpuPZNqthQnmGiYV7WEectM-F9nArERbNpB3as5SFiVVXH43AS_h"
+            alt=""
+            id="profile-img"
+            onclick="profile()"
+          />
+        </div>
+      </div>
+      <a href="pages/releap.html">
+        <div class="val" id="val">
+          <div class="first-left"></div>
+        </div>
+      </a>
+
+      <div class="bottom">
+        <!-- Called of font style  file -->
+
+        <link
+          href="https://fonts.googleapis.com/css?family=Allerta"
+          rel="stylesheet"
+        />
+
+        <div class="container-audio">
+          <audio controls loop autoplay>
+            <source
+              src="audio/MC Abdul - Palestine [FREESTYLE].mp3"
+              type="audio/ogg"
+            />
+            Your browser dose not Support the audio Tag
+          </audio>
+        </div>
+        <div class="container-audio">
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+          <div class="colum1">
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script/app.js"></script>
+  </body>
+</html>

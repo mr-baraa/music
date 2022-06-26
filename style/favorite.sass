@@ -1,0 +1,25 @@
+
+ .grid {
+	 display: flex;
+	 flex-wrap: wrap;
+	 gap: 2.5rem;
+}
+ .grid &gt;
+ div {
+	 flex: 1 1 20rem;
+	 padding: 2rem;
+	 background: #000;
+	 border-radius: 2rem;
+}
+ .grid &gt;
+ div:first-child {
+	 flex-basis: 100%;
+}
+ .grid &gt;
+ div *:last-child {
+	 margin-bottom: 0;
+}
+ .grid h1, .grid h2 {
+	 margin-top: 0;
+	 color: #000;
+}

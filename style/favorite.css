@@ -1,0 +1,74 @@
+.fa-divs {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  height: 50%;
+  width: 80%;
+  padding-top: 25vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.fa-divs div {
+  height: 150px;
+  width: 150px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  cursor: text;
+}
+
+.fa-divs div img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.fa-divs div:nth-child(1) {
+  background-image: url(../images/m22.webp);
+  background-size: cover;
+}
+
+.fa-divs div:nth-child(2) {
+  background-image: url(../images/m23.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(3) {
+  background-image: url(../images/m24.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(4) {
+  background-image: url(../images/m25.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(5) {
+  background-image: url(../images/m26.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(6) {
+  background-image: url(../images/m27.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(7) {
+  background-image: url(../images/m28.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(8) {
+  background-image: url(../images/m29.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(9) {
+  background-image: url(../images/m30.webp);
+  background-size: cover;
+}
+.fa-divs div:nth-child(10) {
+  background-image: url(../images/m31.webp);
+  background-size: cover;
+}
